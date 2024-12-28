@@ -2,7 +2,8 @@ from fastapi import APIRouter, HTTPException, Path
 # from pydantic.typing import Str, Int, Date
 from typing import Annotated
 
-# from app.schemas.bard import Bard, CreateBard
+# from ..schemas.bard import Bard, CreateBard
+# from ..schemas.song import Song, CreateSong
 
 router = APIRouter(prefix='/songs', tags=['songs'])
 

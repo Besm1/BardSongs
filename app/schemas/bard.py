@@ -4,7 +4,7 @@ from pydantic import BaseModel
 Схемы (schemas) — это структуры данных, которые описывают формат и типы входящих/выходящих данных.
 '''
 
-from app.backend.db import Base
+from backend.db import Base
 from sqlalchemy import String, Integer, ForeignKey, Column, Boolean, Date
 from sqlalchemy.schema import CreateTable
 

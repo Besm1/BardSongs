@@ -10,8 +10,8 @@ from sqlalchemy.schema import CreateTable
 '''
 
 from app.backend.db import Base
-from bard import Bard
-from song import Song
+from app.schemas.bard import Bard
+from app.schemas.song import Song
 
 '''
 Схемы (schemas) — это структуры данных, которые описывают формат и типы входящих/выходящих данных.

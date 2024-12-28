@@ -3,7 +3,8 @@ from typing import Annotated
 from datetime import date
 
 # from app.schemas.bard import Bard, CreateBard
-from app.schemas.bard import Bard
+# from ..schemas.bard import Bard
+from schemas import bard
 
 router = APIRouter(prefix='/bards', tags=['bards'])
 
